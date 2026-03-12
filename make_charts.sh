@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Activate the charts environment
+conda init
 conda activate charts
 
 # Run the chart generator app

@@ -12,17 +12,16 @@ import matplotlib.font_manager as fm
 # Get the project root directory (parent of this file)
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-# Default data directory
-DATA_DIR = PROJECT_ROOT.parent / 'tracking'
+# Data directory (tracking/ is at the same level as carina_charts/)
+DATA_DIR = os.path.join(os.path.dirname(PROJECT_ROOT), 'tracking')
 
-# Default output directory
+# Output directory
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
 
 # Archive directory for old charts
 ARCHIVE_DIR = os.path.join(OUTPUT_DIR, 'archive')
 
 # Font directory
-
 FONT_DIR = os.path.join(PROJECT_ROOT, '.fonts')
 
 # Create directories if they don't exist
@@ -32,6 +31,9 @@ os.makedirs(ARCHIVE_DIR, exist_ok=True)
 # Default input files
 DEFAULT_PI_FILE = os.path.join(DATA_DIR, 'pi_organization_totals.txt')
 DEFAULT_USER_FILE = os.path.join(DATA_DIR, 'user_organization_totals.txt')
+
+# Roboto font path
+FONT_PATH = os.path.join(FONT_DIR, 'Roboto', 'static', 'Roboto-Medium.ttf')
 
 # ============================================================================
 # FONT CONFIGURATION
