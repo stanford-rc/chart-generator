@@ -82,7 +82,7 @@ def create_table(departments, counts, output_file, title_suffix="", color_palett
                 cell.set_text_props(ha='right')
     
     # Add title
-    plt.title(f'Carina Cluster {title_suffix} by Department/School',
+    plt.title(f'Carina {title_suffix} by Department/School',
               fontsize=18, weight='bold', pad=20)
     
     # Add timestamp

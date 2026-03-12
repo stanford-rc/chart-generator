@@ -129,7 +129,7 @@ def create_combined_chart(departments, counts, output_file, title_suffix="",
                 cell.set_text_props(ha='right')
     
     # Overall title
-    fig.suptitle(f'Carina Cluster {title_suffix} by Department/School',
+    fig.suptitle(f'Carina {title_suffix} by Department/School',
                  fontsize=20, weight='bold', y=0.98)
     
     timestamp_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')

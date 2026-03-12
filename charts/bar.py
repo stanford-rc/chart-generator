@@ -44,7 +44,7 @@ def create_bar_chart(departments, counts, output_file, title_suffix="", color_pa
                     ha='left', va='center', fontsize=10, weight='bold', color='black')
     
     ax.set_xlabel('Count', fontsize=14, weight='bold')
-    ax.set_title(f'Distribution by Department/School\nCarina Cluster {title_suffix}',
+    ax.set_title(f'Distribution by Department/School\nCarina {title_suffix}',
                  fontsize=16, weight='bold', pad=15)
     ax.grid(axis='x', alpha=0.3, linestyle='--', color='gray')
     ax.set_axisbelow(True)

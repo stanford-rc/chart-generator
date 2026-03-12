@@ -1,6 +1,6 @@
 # Chart Generator
 
-Professional data visualization tool for generating storage usage charts from Carina cluster organization data at Stanford University.
+Professional data visualization tool for generating storage usage charts from Carina user organization data at Stanford University.
 
 ## 📋 Overview
 

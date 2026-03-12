@@ -80,7 +80,7 @@ def create_comparison_chart(pi_data, user_data, output_file, color_palette=None)
     ax.set_yticks(y_pos)
     ax.set_yticklabels(all_depts, fontsize=10)
     ax.set_xlabel('Count', fontsize=14, weight='bold')
-    ax.set_title('PI vs User Distribution by Department/School\nCarina Cluster',
+    ax.set_title('PI vs User Distribution by Department/School\nCarina',
                  fontsize=16, weight='bold', pad=15)
     ax.legend(loc='lower right', fontsize=12, frameon=True, shadow=True)
     ax.grid(axis='x', alpha=0.3, linestyle='--', color='gray')

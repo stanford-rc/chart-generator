@@ -70,7 +70,7 @@ def create_pie_chart(departments, counts, output_file, title_suffix="",
         shadow=True
     )
     
-    plt.title(f'Distribution by Department/School\nCarina Cluster {title_suffix}',
+    plt.title(f'Distribution by Department/School\nCarina {title_suffix}',
               fontsize=20, weight='bold', pad=20)
     ax.axis('equal')
     
