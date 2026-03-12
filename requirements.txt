@@ -1,0 +1,15 @@
+# Carina Charts - Requirements
+# Python dependencies for generating storage usage visualizations
+
+# Core plotting library
+matplotlib>=3.5.0
+
+# Data manipulation and analysis
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Optional but recommended for better performance
+pillow>=9.0.0
+
+# For potential future enhancements
+seaborn>=0.11.0

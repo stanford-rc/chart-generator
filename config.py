@@ -13,7 +13,7 @@ import matplotlib.font_manager as fm
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Default data directory
-DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
+DATA_DIR = PROJECT_ROOT.parent / 'tracking'
 
 # Default output directory
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
